@@ -48,7 +48,7 @@ os.environ["PATH"] += os.pathsep + os.path.dirname(ffmpeg_path)
 logger.info(f"Added FFmpeg path to environment: {ffmpeg_path}")
 
 # Настройки бота
-TOKEN = '7759019972:AAHw65fl0jiwFbsrf5PY9rzPa4HhgJe3wMs'  # заменить на свой токен
+TOKEN = '8100647085:AAGX1cIitNkVPXUimfkoSZ_qE-IAD4g4mec'  # заменить на свой токен
 bot = telebot.TeleBot(TOKEN)
 
 # Состояния пользователей
